@@ -39,5 +39,13 @@ public class ETC {
 		while(st2.hasMoreTokens()) {
 			System.out.println(st2.nextToken());
 		}
+
+		String sNum = "1234";
+		int i = Integer.parseInt(sNum);
+		double d = Double.parseDouble(sNum);
+		long l = Long.parseLong(sNum);
+		float f = Float.parseFloat(sNum);
+		
+		System.out.println(i + " " + d + " " + l + " " + f);
 	}
 }
